@@ -6,6 +6,6 @@ load_dotenv()
 
 model = ChatGoogleGenerativeAI(model="gemini-3.6-flash")
 
-result = model.invoke("what is the name of indian current prime minister")
+result = model.invoke("Write 5 lines of poem about football")
 
 print(result.text)
